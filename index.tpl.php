@@ -21,7 +21,6 @@
 
 <body>
     <h1>The Legend of Zelda: A link to PHP</h1>
-    <p>Cambio de ejemplo v2</p>
     <div class="fondo">
         <div class="tile link"></div>
         <?php /** @var array $mapa */ ?>
@@ -29,7 +28,7 @@
     </div>
 
     <div class="controls">
-        <a href="?link_pos_x=<?= $link['x']; ?>&link_pos_y=<?= $link['y']-1; ?>">Arriba MODIFICADO</a>
+        <a href="?link_pos_x=<?= $link['x']; ?>&link_pos_y=<?= $link['y']-1; ?>">Arriba</a>
         <a href="?link_pos_x=<?= $link['x']; ?>&link_pos_y=<?= $link['y']+1; ?>">Abajo</a>
         <a href="?link_pos_x=<?= $link['x']-1; ?>&link_pos_y=<?= $link['y']; ?>">Izquierda</a>
         <a href="?link_pos_x=<?= $link['x']+1; ?>&link_pos_y=<?= $link['y']; ?>">Derecha</a>
