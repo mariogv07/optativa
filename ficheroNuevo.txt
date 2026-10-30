@@ -1,1 +1,1 @@
-Esto es un cambio de joseda en la linea 1 de ficheroNuevo.txt
+Esto es un cambio de joseda en la linea 1 de ficheroNuevo.txt. Cambio numero 3 siendo colaborador sobre el mismo fichero.
